@@ -10,13 +10,13 @@ This project started as an experiment to learn how **stacks** and **queues** can
 - 📜 Stack used to **record player movement history**  
 - 🚪 Exit anytime with `'q'` command  
 - 🎲 Basic random event placeholders (for future updates)  
-
+- ↩️ Added Undo movement
 ---
 
 ## 🚧 Planned Features
 
 ### 🧭 Gameplay Logic
-- [ ] Undo movement using `stack.pop()`  
+- [x] Undo movement using `stack.pop()`  
 - [ ] Add map/grid system (2D array for player position)  
 - [ ] Add random encounters or events after moves  
 - [ ] Implement simple combat system (HP, damage, etc.)  
@@ -41,7 +41,7 @@ This project started as an experiment to learn how **stacks** and **queues** can
 | Date | Update |
 |------|---------|
 | 12-10 | First commit — base version with movement and stack tracking |
-| -- | Planned addition of grid and queue-based turn system |
+| 14-10 | Second commit — added stack pop feature to perform one undo|
 
 ---
 
