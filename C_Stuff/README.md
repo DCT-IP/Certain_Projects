@@ -1,6 +1,5 @@
 # C_Stuff
  -> Has Certain projects I thought to do in C, along with working around to those i.e. the progress
- -> Aligns with course in MIT
 ---------------------
 ## Stuff Done:-
 - [ ] Pointers and memory
