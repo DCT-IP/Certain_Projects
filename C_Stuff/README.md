@@ -10,7 +10,7 @@
 
 ### Poiinters and memory:- 
 - [x] Pointer Arithmetic
-- [ ] Dynamic Allocation and 2d array
+- [x] Dynamic Allocation and 2d array
 - [ ] Bitwise OPS, setting bits, toggle and swap using XOR
 - [ ] bitmasks flag system          ----- Project
             
