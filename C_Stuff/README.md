@@ -11,7 +11,7 @@
 ### Poiinters and memory:- 
 - [x] Pointer Arithmetic
 - [x] Dynamic Allocation and 2d array
-- [ ] Bitwise OPS, setting bits, toggle and swap using XOR
+- [x] Bitwise OPS, setting bits, toggle and swap using XOR
 - [ ] bitmasks flag system          ----- Project
             
 ### File Handling:-
