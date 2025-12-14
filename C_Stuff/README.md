@@ -2,17 +2,17 @@
  -> Has Certain projects I thought to do in C, along with working around to those i.e. the progress
 ---------------------
 ## Stuff Done:-
-- [ ] Pointers and memory
+- [x] Pointers and memory
 - [ ] File Handling 
 - [ ] Data Structures
 - [ ] Certain system calls and file descriptors
 - [ ] projects along side. 
 
-### Poiinters and memory:- 
+### Pointers and memory:- 
 - [x] Pointer Arithmetic
 - [x] Dynamic Allocation and 2d array
 - [x] Bitwise OPS, setting bits, toggle and swap using XOR
-- [ ] bitmasks flag system          ----- Project
+- [x] bitmasks flag system          ----- Project
             
 ### File Handling:-
 - [ ] File Basics 

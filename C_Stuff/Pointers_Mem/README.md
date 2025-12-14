@@ -5,4 +5,4 @@
   - .> Pointer Arithmetic                        -DONE[X]
   - .> Dynamic Allocation and 2d array           -DONE[x]
   - .>  Bitwise OPS, setting bits, toggle and swap using XOR      -DONE[X]
-  - .> bitmasks flag system          ----- Project
+  - .> bitmasks flag system          ----- Project            -DONE[x]
