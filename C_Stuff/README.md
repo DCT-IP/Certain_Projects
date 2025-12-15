@@ -15,7 +15,7 @@
 - [x] bitmasks flag system          ----- Project
             
 ### File Handling:-
-- [ ] File Basics 
+- [x] File Basics 
 - [ ] Binary Files
 - [ ] Structs and Arrays 
 - [ ] command Line Arguments 

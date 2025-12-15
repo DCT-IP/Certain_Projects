@@ -1,0 +1,13 @@
+# File Handling in c
+
+- Has a project and progress related to learning file handling 
+
+---
+
+## What can be found 
+- File basics [x]
+- Binary files
+- Structs and arrays with structs
+- command line arg
+- Structs with File I/O to create a dbms with save
+- sensor logger, stored in .bin     - Project[ ]
