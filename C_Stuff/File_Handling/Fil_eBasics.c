@@ -60,7 +60,7 @@ int main(){
         printf("The file is opened.\n"); 
         fputs(wat,fptr);            
         fputs("\n", fptr);
-        fseek(fptr, -6, SEEK_END);
+        fseek(fptr, -6, SEEK_END); //SEEK_END will force to search from the end, that is why -6 was used as from the end it will go till -6 bytes
         fputs("EDIT", fptr);
         fclose(fptr);
         printf("Data successfully written!!!\n");
