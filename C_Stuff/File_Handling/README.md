@@ -6,7 +6,7 @@
 
 ## What can be found 
 - File basics [x]
-- Binary files
+- Binary files [x]
 - Structs and arrays with structs
 - command line arg
 - Structs with File I/O to create a dbms with save

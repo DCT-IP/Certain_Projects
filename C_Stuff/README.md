@@ -16,7 +16,7 @@
             
 ### File Handling:-
 - [x] File Basics 
-- [ ] Binary Files
+- [x] Binary Files
 - [ ] Structs and Arrays 
 - [ ] command Line Arguments 
 - [ ] structs and I/O in file ---DBMS
