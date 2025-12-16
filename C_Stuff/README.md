@@ -1,6 +1,8 @@
 # C_Stuff
  -> Has Certain projects I thought to do in C, along with working around to those i.e. the progress
----------------------
+
+---
+
 ## Stuff Done:-
 - [x] Pointers and memory
 - [ ] File Handling 
@@ -17,7 +19,7 @@
 ### File Handling:-
 - [x] File Basics 
 - [x] Binary Files
-- [ ] Structs and Arrays 
+- [x] Structs and Arrays 
 - [ ] command Line Arguments 
 - [ ] structs and I/O in file ---DBMS
 - [ ] Sensor logger: store in .bin                 ---- Project
@@ -46,10 +48,5 @@
 - [ ] packet logger
 - [ ] password analyzer
 - [ ] Bitmask based control system and others
-
-##  Progress Report
-| Date | Update |
-|------|---------|
-| 11-12 | First commit — Started with pointers |
 
 ---

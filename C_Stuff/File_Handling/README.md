@@ -7,7 +7,7 @@
 ## What can be found 
 - File basics [x]
 - Binary files [x]
-- Structs and arrays with structs
-- command line arg
-- Structs with File I/O to create a dbms with save
+- Structs and arrays with structs[x]
+- command line arg [ ]
+- Structs with File I/O to create a dbms with save[ ]
 - sensor logger, stored in .bin     - Project[ ]
