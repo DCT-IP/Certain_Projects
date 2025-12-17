@@ -20,7 +20,7 @@
 - [x] File Basics 
 - [x] Binary Files
 - [x] Structs and Arrays 
-- [ ] command Line Arguments 
+- [x] command Line Arguments 
 - [ ] structs and I/O in file ---DBMS
 - [ ] Sensor logger: store in .bin                 ---- Project
             

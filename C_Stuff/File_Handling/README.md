@@ -8,6 +8,6 @@
 - File basics [x]
 - Binary files [x]
 - Structs and arrays with structs[x]
-- command line arg [ ]
+- command line arg [x]
 - Structs with File I/O to create a dbms with save[ ]
 - sensor logger, stored in .bin     - Project[ ]
