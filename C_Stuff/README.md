@@ -24,13 +24,6 @@
 - [ ] structs and I/O in file ---DBMS
 - [ ] Sensor logger: store in .bin                 ---- Project
             
-### DS:-
-- [ ] LLs
-- [ ] Stacks
-- [ ] Queues
-- [ ] Trees (BST->AVL->Graphs)
-- [ ] Search and Sort
-            
 ### System calls and File:- 
 - [ ] System Calls and File descriptor basic
 - [ ] A schedular (struct with PID, state, priorty|uses round robin/fcfs)
