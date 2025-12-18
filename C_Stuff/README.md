@@ -21,7 +21,7 @@
 - [x] Binary Files
 - [x] Structs and Arrays 
 - [x] command Line Arguments 
-- [ ] structs and I/O in file ---DBMS
+- [x] structs and I/O in file ---DBMS
 - [ ] Sensor logger: store in .bin                 ---- Project
             
 ### System calls and File:- 

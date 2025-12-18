@@ -9,5 +9,5 @@
 - Binary files [x]
 - Structs and arrays with structs[x]
 - command line arg [x]
-- Structs with File I/O to create a dbms with save[ ]
+- Structs with File I/O to create a dbms with save[x]
 - sensor logger, stored in .bin     - Project[ ]

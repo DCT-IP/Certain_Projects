@@ -1,7 +1,8 @@
 /*Struct in C and arrays of Struct
 .. these are user defined data types that is inbuilt of many different data types
 .. in C these are used everywhere in non linear DS and some (complicated???) Linear DS
-.. since it is a data type, we can make pointers to it and arrays of it.*/
+.. since it is a data type, we can make pointers to it and arrays of it.
+.. Contigous block of bytes*/
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct SensorDat{ //assuming we r intaking some sensor's data
