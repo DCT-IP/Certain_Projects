@@ -10,4 +10,4 @@
 - Structs and arrays with structs[x]
 - command line arg [x]
 - Structs with File I/O to create a dbms with save[x]
-- sensor logger, stored in .bin     - Project[ ]
+- sensor logger, stored in .bin     - Project[x]

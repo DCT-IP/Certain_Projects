@@ -5,8 +5,7 @@
 
 ## Stuff Done:-
 - [x] Pointers and memory
-- [ ] File Handling 
-- [ ] Data Structures
+- [x] File Handling 
 - [ ] Certain system calls and file descriptors
 - [ ] projects along side. 
 
@@ -22,7 +21,7 @@
 - [x] Structs and Arrays 
 - [x] command Line Arguments 
 - [x] structs and I/O in file ---DBMS
-- [ ] Sensor logger: store in .bin                 ---- Project
+- [x] Sensor logger: store in .bin                 ---- Project
             
 ### System calls and File:- 
 - [ ] System Calls and File descriptor basic
