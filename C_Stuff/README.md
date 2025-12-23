@@ -24,7 +24,7 @@
 - [x] Sensor logger: store in .bin                 ---- Project
             
 ### System calls and File:- 
-- [curr] System Calls and File descriptor basic
+- [x] System Calls and File descriptor basic
 - [ ] A schedular (struct with PID, state, priorty|uses round robin/fcfs)
 - [ ] Shell Intro
 - [ ] Bitwise binary parsing

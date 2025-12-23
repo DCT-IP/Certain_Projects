@@ -65,8 +65,64 @@ close()
     int close(int fd); however can be reused
 -------------------------------------------------------------------------------------------------------------------------------------------
 stdio(fopen,fgets,printf) is buffered and higher-level, thus for kernel level work we use syscalls 
-
+--------------------------------------------------------------------------------------------------------------------------------------
 the duplication command is cricitcal for shell making
+int newfd = dup(fd)
+dup2(fd,newfd);
+--------------------------------------------------------------------------------------------------------------------------------------------
+fork()
+- child gets copy of FD table
+- same open file objects
+- shared offsets
+fork()
+write(1,"x",1)   output may vary and this later on matters for pipes, shell, schedular sim
+---------------------------------------------------------------------------------------------------------------------------------------------
+error handling utilizes perror thru errno.h
+----------------------------------------------------------------------------------------------------------------------------------------------
+lseek()
+off_t lseek(int fd, off_t,int whence)
+where whence cane be :-
+    SEEK_SET   // absolute
+    SEEK_CUR   // relative
+    SEEK_END   // from end
+however not supported by lseek()
+-----------------------------------------------------------------------------------------------------------------------------------------------
+write() for regular files may interleave across processes, for pipes(pip_buf all caps), they are atomic
+-----------------------------------------------------------------------------------------------------------------------------------------------
+read() blocks until data availalbe, this can be changed in FD - 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+fcntl - FD control.
+fcntl(fd, F_SETFL,O_NONBLOCK)
+this forces read() to return 01 and errno = EAGAIN if no dat
+fcntl(fd,F_GETFL) or fcntl(fd,F_SETFL,flags) - dubplicate df with flags and makes it non blocking
+-----------------------------------------------------------------------------------------------------------------------------------------------
+a file descriptor's life cycle: open -> read/write -> dup or fork or oth such optional -> close 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+start("path/file.extension", &st)                            <---alt--->                           fstat(fd, &st)
+fd is better as it will work regardless of renaming of file, safe against race conditions
+-----------------------------------------------------------------------------------------------------------------------------------------------
+syscalls to be utilized 
+open
+read 
+write 
+close 
+dup/dup2
+lseek
+fork
+execve(latr)
+pipe(latr)
 
-//tbd
+the program will, copy a file -> skip first 10 bytes -> apppend to output -> handle errors ->use only syscalss
 */
+#include <stdio.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <errno.h>
+
+int main(int argc, char *argv[]){
+    if(argc!=3){
+        write(2, "usage: copy src dst\n", 20);
+    }
+    // to be continued 
+    
+}

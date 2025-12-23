@@ -3,7 +3,7 @@
 -> Has projects related to system calls and file descs and other such
 ---
 
-  - [curr] System Calls and File descriptor basic
+  - [x] System Calls and File descriptor basic
   - [ ] A schedular (struct with PID, state, priorty|uses round robin/fcfs)
   - [ ] Shell Intro
   - [ ] Bitwise binary parsing
