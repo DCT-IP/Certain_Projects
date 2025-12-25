@@ -164,3 +164,8 @@ int main(int argc, char *argv[]){
         close(dest);
         return 0;
 }
+/* 
+for compiling 
+gcc copy.c -o copy
+./copy src dest              -> these files need to exist 
+*/
