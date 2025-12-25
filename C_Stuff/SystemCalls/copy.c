@@ -120,9 +120,47 @@ the program will, copy a file -> skip first 10 bytes -> apppend to output -> han
 #include <errno.h>
 
 int main(int argc, char *argv[]){
-    if(argc!=3){
+    if(argc<3){
         write(2, "usage: copy src dst\n", 20);
     }
-    // to be continued 
+    //opening src file
+    int src = open(argv[1], O_RDONLY);             
+    if(src < 0){
+        perror("OPEN SRC"); return 1;
+    }
+    //opening destination file
+    int dest = open(argv[2], O_WRONLY|O_CREAT|O_APPEND, 0644);
+    if(dest < 0){
+        perror("OPEN DEST"); return 1; 
+    }
+    //using lseek to change first ten bytes
+    if((src, 10, SEEK_SET) < 0){
+        perror("lseek");
+        close(src);close(dest);
+        return 1;
+    }
+
+    char buf[512]; ssize_t n;
+    while(1) {
+        n = read(src, buf, sizeof(buf)); //allows us to read only 
+        if(n == 0) break;
+        if (n < 0){
+            if(errno == EINTR) continue;
+            perror("read");break;
+        }
     
+        ssize_t written = 0;
+        while(written < n){
+            ssize_t w = write(dest, buf + written, n - written);
+            if(w < 0){
+                perror("write");
+                goto cleanup;
+            }
+            written += w;
+        }
+    }
+    cleanup:
+        close(src);
+        close(dest);
+        return 0;
 }
