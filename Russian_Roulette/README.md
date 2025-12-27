@@ -1,4 +1,4 @@
-# 🎯 Russian Roulette Game
+# 🎯 Russian Roulette Game              [ON HOLD]
 
 A simple simulation of the classic Russian Roulette, built in C for fun and practice.  
 This project experiments with **arrays**, **randomness**, and **game logic simulation**.

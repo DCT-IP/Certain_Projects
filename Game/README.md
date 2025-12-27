@@ -1,4 +1,4 @@
-# ⚔️ Turn-Based RPG (Stack Experiment)
+# ⚔️ Turn-Based RPG (Stack Experiment)    [ON HOLD]
 
 A console-based **turn-based RPG prototype** built in C++.  
 This project started as an experiment to learn how **stacks** and **queues** can be applied in gameplay logic — like tracking player moves and simulating turns.
